@@ -5,6 +5,8 @@ source /home/ubuntu/ACG/ReadCSV/ReadCSV.sh
 
 GITHUB_USERNAME=$(GET_USER_DATA 0003 2)
 GITHUB_TOKEN=$(GET_USER_DATA 0003 3)
+echo ${GITHUB_USERNAME}
+echo ${GITHUB_TOKEN}
 # 1: id
 # 2: username
 # 3 : token
